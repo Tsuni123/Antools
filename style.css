@@ -37,8 +37,15 @@ ul {
 
 .head-main{
     display: flex;
-    margin: 21px;
+    margin: 50px;
     justify-content: space-between;
+    margin-bottom: 80px;
+
+
+}
+
+.illustration{
+  padding-right: 0px;
 }
 
 .main-list{
@@ -48,6 +55,12 @@ margin: 8px;
 padding-top: 119px;
 display: flex;
 justify-content: flex-start;
+
+}
+
+.nav-list{
+  display: flex;
+gap: 41px;
 }
 
 
@@ -386,6 +399,7 @@ width: 130px;
   .tools-container{
     display: flex;
     flex-wrap: wrap;
+    
   }
 
 
@@ -409,23 +423,26 @@ width: 130px;
   }
 .tools-title{
     color: rgba(255, 255, 255, 0.90);
-    text-align: center;
     font-family: Poppins;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
     line-height: 130%; /* 62.4px */
+  
+
 }
 
 .tools-text{
     color: rgba(255, 255, 255, 0.55);
-text-align: center;
 font-family: Poppins;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: 30px; /* 166.667% */
 padding-bottom: 90px;
+max-width: 427px;
+display: flex;
+text-align: center;
 }
 
 .tools-item-title{
@@ -438,6 +455,13 @@ line-height: normal;
 
 }
 
+
+
+.tools-div{
+  
+  
+}
+
 .tools-item-text{
     color: #FFA537;
 font-family: Poppins;
@@ -448,12 +472,11 @@ line-height: normal;
 }
 
 
-.item-box{
-   
+.tools-text-special{
+  display: flex;
+  
 }
-.tools-item{
-   margin: 30px;
-}
+
 
 .item-subtext{
     color: rgba(255, 255, 255, 0.78);
@@ -548,7 +571,8 @@ height: 253px;
 flex-shrink: 0;
 border-style: none;
 margin: 0 auto;
-
+background-image: url(/pictures1/brand.png);
+margin-bottom: 200px;
 }
 
 .global-item{
@@ -652,17 +676,20 @@ align-items: center;
 }
 
 .bunner-btn1 {
-  color: #fff;
+  color: #FFFFFFC7;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
   padding: 12px 36px;
   border-radius: 8px;
-  background-color: #ff6e30;
-  
+  background-color: #1E252B;
 }
 
+.bunner-btn1:hover{
+  color: #fff;
+  background-color: #ff6e30;
+}
 
 
 
@@ -732,23 +759,79 @@ align-items: center;
 }
 
 .zitat {
-  color: rgba(255, 255, 255, 0.78);
-  font-family: Roboto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 214.286% */
-  letter-spacing: 0.21px;
- 
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  color: #FFFFFFC7;
+  max-width: 393px;
+  position: relative;
 }
+ .zitat-img{
+  padding-right: 57px;
+ }
 
 .zitat-main{
     margin-bottom: 250px;
+    display: flex;
 }
 
+.section-response-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  color: #FFFFFFC7;
+  max-width: 393px;
+  position: relative;
+  }
+  .section-response-text::before{
+    content: "“";
+    font-family: Lora;
+    font-size: 250px;
+font-weight: 500;
+line-height: 320px;
+letter-spacing: 0%;
+text-align: left;
+color: #ffffff11;
+position: absolute;
+top: 42px;
+left: -71px;
+transform: rotate(19.17deg);
+    
+  }
+.response-decor-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 101px;
+}
+.response-decor{
+  display: inline-block; 
+  width: 44px;
+  height: 6px;
+  border-radius: 4px;
+  background-color: #283036;
+}
+.response-decor:nth-child(2){
+  background-color: #FF6E30;
+}
+.response-box{
+  display: flex;
+  justify-content: center;
+}
 
 .last{
     margin-bottom: 240px;
+   
+    text-align: center;
 }
 
 .footer{
@@ -806,6 +889,7 @@ color: #FF6E30;
     font-weight: 500px;
     line-height: normal;
     color: #ffffff;
+    margin-top: 25px;
 }
 
 .footer-Copyright-title:hover{
@@ -842,6 +926,7 @@ max-width: 260px;
     padding-bottom: 20px;
     color: #ffffff;
     max-width: 144px;
+
 }
 
 .nav-footer-list-d{
@@ -876,3 +961,39 @@ max-width: 260px;
   a {
     text-decoration: none;
   }
+
+  .nav-footer-title:hover{
+   color: #FFA537;
+  }
+
+  .last-pedistal{
+    color: rgba(255, 255, 255, 0.55);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 166.667% */
+display: flex;
+justify-content: center;
+  }
+
+  .tools-text-special{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.55);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 166.667% */
+  }
+
+
+
+
+
+
+
+
