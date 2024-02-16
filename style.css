@@ -278,9 +278,9 @@ width: 130px;
     height: 294px;
     padding: 33px;
     text-align: left;
-    background-image: url(/pictures1/Rectangle\ 5\ \(2\).png);
-max-width: 392px;
+    max-width: 392px;
 max-height: 294px;
+margin-top: 60px;
   }
   .tools-item:hover {
     border-radius: 15px;
@@ -344,7 +344,7 @@ max-height: 294px;
   .item-icons-heart {
     width: 30px;
     height: 30px;
-    background-image: url(/pictures1/flat-color-icons_like\ \(5\).svg);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
@@ -613,7 +613,8 @@ margin-top: 60px;
     padding-left: 10px;
     display: flex;
     align-items: baseline;
-    
+    flex-wrap: wrap;
+    max-width: 1224px;
 }
 
 .newcomer-special{
@@ -624,7 +625,8 @@ margin-top: 60px;
 
 .newcomer-item{
   background-image: url(/pictures1/Rectangle\ 5\ \(1\).png);
-  max-width: 288px;
+  max-width: 290px;
+  max-height: 284px;
   
 }
 
@@ -641,6 +643,22 @@ margin-top: 60px;
   
 }
 
+.newcomer-pictures{
+  display: flex;
+ }
+
+.newcomer-pictures-item{
+  padding-right: 23px;
+}
+
+.newcomer-help{
+  display: flex;
+  justify-content: space-between;
+}
+
+.newcomer-pictures-text{
+  margin-right: 23px;
+}
 .last-title{
     color: rgba(255, 255, 255, 0.90);
 text-align: center;
