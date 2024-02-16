@@ -278,6 +278,9 @@ width: 130px;
     height: 294px;
     padding: 33px;
     text-align: left;
+    background-image: url(/pictures1/Rectangle\ 5\ \(2\).png);
+max-width: 392px;
+max-height: 294px;
   }
   .tools-item:hover {
     border-radius: 15px;
@@ -347,6 +350,7 @@ width: 130px;
     background-color: transparent;
     border: none;
     margin-right: 12px;
+    
   }
   .item-icons-heart:hover {
     background-image: url(img/heart-active.svg);
@@ -474,7 +478,7 @@ line-height: normal;
 
 .tools-text-special{
   display: flex;
-  
+  padding-bottom: 90px;
 }
 
 
@@ -590,8 +594,8 @@ line-height: normal;
 border-radius: 8px;
 background: #FF6E30;
 padding: 16px 40px;
-display: flex;
-justify-content: center;
+margin-top: 60px;
+
 }
 
 .unique{
@@ -604,8 +608,38 @@ justify-content: center;
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding-left: 10px;
+    display: flex;
+    align-items: baseline;
+    
 }
 
+.newcomer-special{
+  background-image: url(/pictures1/Rectangle\ 5.png);
+  max-width: 288px;
+  max-height: 284px;
+}
+
+.newcomer-item{
+  background-image: url(/pictures1/Rectangle\ 5\ \(1\).png);
+  max-width: 288px;
+  
+}
+
+.newcomer-bananenbrot{
+  display: flex;
+  
+}
+
+.newcomer-main{
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  
+  
+}
 
 .last-title{
     color: rgba(255, 255, 255, 0.90);
@@ -709,13 +743,14 @@ align-items: center;
 
 .main-ad {
   color: rgba(255, 255, 255, 0.9);
-  text-align: center;
+  text-align: start;
   font-family: Poppins;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
   line-height: 130%; /* 62.4px */
   padding-top: 220px;
+ 
 }
 
 .small,
@@ -769,6 +804,7 @@ align-items: center;
   color: #FFFFFFC7;
   max-width: 393px;
   position: relative;
+  margin-top: 200px;
 }
  .zitat-img{
   padding-right: 57px;
