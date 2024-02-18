@@ -46,6 +46,7 @@ ul {
 
 .illustration{
   padding-right: 0px;
+  padding-left: 200px;
 }
 
 .main-list{
@@ -266,21 +267,27 @@ width: 130px;
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 110px;
+    
   }
   .tools-list {
     display: flex;
-    flex-wrap: wrap;
     gap: 25px;
     margin-bottom: 100px;
+   display: flex;
   }
   .tools-item {
     width: 392px;
     height: 294px;
-    padding: 33px;
+    padding: 20px;
     text-align: left;
-    max-width: 392px;
+    max-width: 300px;
 max-height: 294px;
-margin-top: 60px;
+margin-left: 30px;
+margin-right: 30px;
+padding: 20px;
+margin-top: 30px;
+display: flex;
+flex-basis: calc((100% - 25• 3px) / 2);
   }
   .tools-item:hover {
     border-radius: 15px;
@@ -626,6 +633,7 @@ margin-top: 60px;
   max-height: 284px;
   flex-basis: calc((100% - 30px) / 2);
    border-radius: 4px;
+   padding: 12px;
 }
 
 .newcomer-item{
@@ -637,11 +645,16 @@ margin-top: 60px;
    border-radius: 4px;
  margin-top: 30px;
  margin-right: 30px;
+ padding: 16px;
 }
 
-.newcomer-wrap{
+.newcomer-wrap{  
   display: flex;
   gap: 24px;
+}
+
+.newcomer-wrap-smol{
+
 }
 .newcomer-bananenbrot{
   display: flex;
@@ -653,7 +666,8 @@ flex-wrap: wrap;
   justify-content: flex-start;
   text-align: start;
   
-  
+  display: flex;
+  align-items: flex-start;
 }
 
 .newcomer-pictures{
@@ -844,6 +858,7 @@ align-items: center;
 
 .zitat-main{
     margin-bottom: 250px;
+    margin-top: 250px;
     display: flex;
 }
 
